@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/charl/source/repos/llvm/mage/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

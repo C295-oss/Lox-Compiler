@@ -1,0 +1,3 @@
+C:/Users/charl/source/repos/llvm/mage/CMakeFiles/mage.dir
+C:/Users/charl/source/repos/llvm/mage/CMakeFiles/edit_cache.dir
+C:/Users/charl/source/repos/llvm/mage/CMakeFiles/rebuild_cache.dir
