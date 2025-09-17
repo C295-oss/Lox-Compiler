@@ -3,7 +3,6 @@
 #include <string>
 
 #include "Scanner.hpp"
-#include "Parser.hpp"
 
 
 const char* tokenTypeNames[] = {
@@ -25,7 +24,6 @@ int main()
     std::string test = "var x = 1;\nvar y = 2;\n";
 
     auto scanner = Scanner(test);
-    auto parser = Parser();
 
     if (scanner.Scan()) {
 
@@ -39,8 +37,7 @@ int main()
             std::cout << stringTokenType(t.token_type) << ", " << std::endl;
         }
 
-        parser.parseTokens(tokens);
-        
+        // TODO: write this...
 
         std::cout << "done" << std::endl;
     }
